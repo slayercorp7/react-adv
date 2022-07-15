@@ -1,0 +1,75 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "diego",
+    "label": "First Name",
+    "value": "diego",
+    "validations": [
+        {
+            "type": "required"
+        },
+        {
+            "type": "minLength",
+            "value": 5
+        }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "caiza",
+    "label": "Last Name",
+    "value": "",
+    "validations": [
+        {
+            "type": "required"
+        }
+        ,
+        {
+            "type": "maxLength",
+            "value": 10
+        }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "email",
+    "label": "email",
+    "value": "",
+    "validations": [
+        {
+            "type": "required"
+        },
+        {
+            "type": "email"
+        }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite game",
+    "value": "",
+    "validations": [
+        {
+            "type": "required"
+        }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "description": "doom"
+      },
+      {
+        "id": 2,
+        "description": "doom 2016"
+      },
+      {
+        "id": 3,
+        "description": "doom eternal"
+      }
+    ]
+  }
+]
